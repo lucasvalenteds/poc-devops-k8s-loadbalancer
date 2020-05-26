@@ -4,7 +4,7 @@ SCALE ?= 5
 build:
 	@npm --prefix ./server install
 	@npm --prefix ./server run build
-	@docker-compose build
+	@docker build --file server/Dockerfile --tag $(SERVICE) server
 
 up:
 	@kubectl apply --filename=kubernetes.yml
