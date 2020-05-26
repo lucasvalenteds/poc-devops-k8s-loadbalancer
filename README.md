@@ -1,6 +1,6 @@
 # POC: Node.js on Kubernetes
 
-It demonstrates how to use [Kubernetes](https://github.com/kubernetes/kubernetes) to route requests to multiple [Node.js](https://nodejs.org) servers running on [Docker](https://github.com/docker) containers.
+It demonstrates how to use [Kubernetes](https://kubernetes.io) to route requests to multiple [Node.js](https://nodejs.org) servers running on [Docker](https://github.com/docker) containers.
 
 We want Kubernetes load balancer to redirect HTTP requests to a single URL to any running pod.
 
