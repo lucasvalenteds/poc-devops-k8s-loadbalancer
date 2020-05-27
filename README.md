@@ -1,4 +1,4 @@
-# POC: Node.js on Kubernetes
+# POC: Kubernetes Load Balancer
 
 It demonstrates how to use [Kubernetes](https://kubernetes.io) to route requests to multiple [Node.js](https://nodejs.org) servers running on [Docker](https://github.com/docker) containers.
 
