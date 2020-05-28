@@ -21,3 +21,6 @@ info:
 
 scale:
 	@kubectl scale --replicas=$(SCALE) deployment/$(SERVICE)
+
+test:
+	@./test.sh $(SERVICE)

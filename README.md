@@ -11,7 +11,7 @@ We want Kubernetes load balancer to redirect HTTP requests to a single URL to an
 | Provision | `make up` |
 | Destroy | `make down` |
 | Show logs | `make logs` |
-| Run tests | `./test.sh` |
+| Run tests | `make test` |
 
 > Running `SCALE=N make scale` will run N pods (e.g.: `SCALE=10 make scale` will run 10 pods)
 
