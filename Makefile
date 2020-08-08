@@ -18,6 +18,7 @@ logs:
 
 info:
 	@kubectl get service $(SERVICE)
+	@echo
 	@kubectl get pods --selector app=$(SERVICE)
 
 scale:
